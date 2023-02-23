@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="fw-bold fs-1 text-gray-800">Excel Export</h2>
+        <h2 class="fw-bold fs-1 text-gray-800">Data Export & Import</h2>
     </x-slot>
     <div class="card-body">
                 <form action="{{ route('import') }}"
